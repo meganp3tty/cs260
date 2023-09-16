@@ -1,0 +1,1 @@
+Git and Github work really well with tracking how a project changes. I have access to all versions of my project that I commit, which means I can go back and review anything if needed.
