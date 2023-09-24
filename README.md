@@ -4,6 +4,8 @@
 ### Elevator Pitch
 How many times have you tried keeping a journal? Maybe you'll get a week in, forget to do it one day, and abandon it altogether. Maybe you journal consistently, but you never know what to write. WYDRN, short for "what're you doing right now?" is an interactive and social journaling application that not only streamlines the journaling experience, but adds some excitement to it, too. At a random time each day, users will be notified that it's time to add their daily log. They are then given a series of interesting journaling prompts in the form of a text message that feature both written and multiple choice responses. Only after they complete their log will they have access to a feed featuring friends' responses. 
 ### Design
+
+![Screenshot of a design sketch for a startup website]()
 ### Key Features
 * Secure login over HTTPS
 * Ability to request and accept friend status from other accounts
