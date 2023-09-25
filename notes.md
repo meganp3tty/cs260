@@ -30,3 +30,7 @@ Some characters require using an alternate entity. Example: to display '<' you w
 index.html is commonly the main page for an application
 
 Block vs inline: block means distinct, and inline does not distrupt the flow. <div> is a block element that could contain inline element <b>. Similarly, <p> can contain <span>.
+
+HTML input elements include form, input, option, label, etc.
+
+The form element submits values of the input it contains. The input lement is set with a type such as number, checkbox, text, color, submit button, etc.
