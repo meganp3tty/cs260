@@ -34,3 +34,13 @@ Block vs inline: block means distinct, and inline does not distrupt the flow. <d
 HTML input elements include form, input, option, label, etc.
 
 The form element submits values of the input it contains. The input lement is set with a type such as number, checkbox, text, color, submit button, etc.
+
+HTML Media: img, video, audio, svg (Scalable Vector graphics), canvas, etc.
+
+External media takes urls.
+
+<img src="" alt="">
+<audio controls src=""></audio>
+<video controls width="" crossorigin="anonymous"> <source src="" /> </video>
+
+Internal media svg and canvas create images using HTML
