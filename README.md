@@ -35,4 +35,15 @@ Each of the following technologies will be utilized:
 
 **Database Data -** A database will be utilized to store users' daily journal responses
 
+## HTML Deliverable
+For this deliverable I built out the structure of my application using HTML.
+
+* **HTML pages -** Four HTML pages that represent the ability to login, view/comment on feed, add a journal log, and view past logs.
+* **Links -** The login page automatically links to the journal page. The other pages contain a navigation menu for each other.
+* **Text -** Journal entries are represented with text.
+* **Images -** Image on the journal page to represent logo.
+* **Login -** Input boxes for username and password and submit button for login.
+* **Database -** The past logs represent logs from a data base.
+* **WebSocket -** the feed of friends' logs and comments represents realtime input.
+
 
