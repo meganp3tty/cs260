@@ -44,3 +44,57 @@ External media takes urls.
 <video controls width="" crossorigin="anonymous"> <source src="" /> </video>
 
 Internal media svg and canvas create images using HTML
+
+CSS:
+responsive and stylistic. Uses rulesets that are comprised of selectors and declarations. Declarations represent properties that style with property values.
+
+How to use CSS:
+1. Use <style> element to apply directly in HTML file. Use in the <head> elementif you want it to apply to the whole document, or put it directly in a specific element. Ex: <p style="color:green">CSS</p> for just the paragraph.
+
+Link external CSS stylesheet (preferred)
+
+Rules cascade from highest nodes (general) to lowest (specific). The lower/more specific declaration with override the others.
+
+Box model: innermost box has content, then padding, then border, then margin (whitespace).
+
+CSS Selectors: 
+Select elements from HTML
+
+* is the wildcard selector for all elements
+
+Combinators include descendant, child, general sibling, and adjacent sibling.
+
+class selectors use periods. .class. can also combine - p.class
+
+ID selectors use #. #id.
+
+Attribute selector use [].
+
+Pseudo selectors are conditional, like :hover.
+
+CSS Declarations:
+
+Specify what it is you want to style.
+
+Common units: px, pt, in, cm, %, vmin
+
+Color can be used by the word, the RGB hex/function, or the HSL
+
+@font-face imports fonts.
+
+To animate, declare an animation-name and animation-duration. Then create keyframes, 'from' and 'to', with percentages in between. Use @keyframes demo{} 
+
+Responsive design:
+responds to screen size.
+
+Block: width that fills parent element (p and div)
+Inline: width only as big as its content (b or span)
+Flex: element's children in a flexible orientation
+Grid: element's children in a grid orientation
+none: won't render on browser
+
+viewport meta tag tells browser not to scale the page
+
+Float property can move an element respective to its container. Helps with wrapping.
+
+@media queries dynamically detects size and orientation of browser.
