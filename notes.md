@@ -98,3 +98,35 @@ viewport meta tag tells browser not to scale the page
 Float property can move an element respective to its container. Helps with wrapping.
 
 @media queries dynamically detects size and orientation of browser.
+
+JavaScript
+
+console.log outputs data into debugger console
+
+CSS can be passed into the console
+
+console.time and console.timeEnd will output how long code takes to run in between the two calls
+
+console.count counts how many times a block of code is called
+
+You can insert JavaScript into HTML either by directly including it in the HTML within the content of a <script> element, or by using the src attribute of the script element to reference an external JavaScript file.
+
+Variables are delcared with either let or const. Let allows the variable to change, and const will error if you try to change it.
+
+Some variable types: null (container not yet assigned) undefined, boolean, number, BigInt, string, and symbol.
+
+=== is strict equality
+
+boolean operators: && (and), || (or), ! (not)
+
+With strings, single and double quotes can be used in equivalence, but the backtick is a string literal
+
+Anything surrounded by ${} is evaluated as JavaScript
+
+some string functions: length, indexOf(), split(), startsWith(), endsWith(), toLowerCase()
+
+functions start with the function key word, then the function name(parameters) {function body} 
+
+The arrow syntax ==> replaces function. ex: (parameters) => return value;
+
+JSON is JavaScript Object Notation. They contain data, typically in key value pairs. JSON.parse and JSON.stringify converts to and from JavaScript
