@@ -21,13 +21,18 @@ header h1 {
     padding: 5px;
 }
 
+a {
+    color:aliceblue;
+
+}
+
 .login{
     display: flex;
     flex-direction:column;
     align-items: left;
     box-sizing: border-box;
-    background: white;
+    background: rgb(159, 178, 255);
     
-    border: 2px solid red;
+    border: 2px solid rgb(142, 132, 255);
     padding: 10px;
 }
