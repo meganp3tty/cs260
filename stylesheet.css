@@ -11,7 +11,6 @@
 *{
     font-family: Sunday;
     
-    
    
 }
 
@@ -24,6 +23,7 @@ h1 {
     font-family: Moon;
     font-size: 500%;
     color: rgb(15, 15, 15);
+    margin: 0;
     
 
     
@@ -45,6 +45,8 @@ main{
     align-items: flex-start;
     justify-content:space-between;
     list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
     
 }
 
@@ -90,13 +92,14 @@ button {
 footer {
     background-color:rgb(16, 62, 103);
     margin: 0;
+    color: white;
 }
 
 
 nav li:hover {
 	/* Transition goes here/ */
 	transition: background-color 1.0s ease;
-	background-color: lightgreen;
+	background-color: rgb(104, 119, 233);
 }
 nav li:hover a {
 	/* Transition goes here/ */
@@ -104,7 +107,7 @@ nav li:hover a {
 	color: #000;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .options {
       -webkit-flex-direction: column;
       flex-direction: column;
