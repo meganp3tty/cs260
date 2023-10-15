@@ -46,4 +46,14 @@ For this deliverable I built out the structure of my application using HTML.
 * **Database -** The past logs represent logs from a data base.
 * **WebSocket -** the feed of friends' logs and comments represents realtime input.
 
+## CSS Deliverable
+For this deliverable, I added some basic style elements to my application.
+
+* **Header, footer, and main content body**
+* **Navigation elements -** 
+* **Responsive to window resizing -** 
+* **Application elements -** 
+* **Application text content -** 
+* **Application images -** 
+
 
