@@ -24,11 +24,11 @@ h1 {
     font-size: 500%;
     color: rgb(15, 15, 15);
     margin: 0;
-    
 
-    
-    
+}
 
+h2{
+    font-size: 200%;
 }
 
 main{
@@ -45,8 +45,8 @@ main{
     align-items: flex-start;
     justify-content:space-between;
     list-style-type: none;
+    margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 0;
     
 }
 
@@ -67,25 +67,58 @@ a {
     border-radius: 7px;
     border: 2px solid rgb(142, 132, 255);
     padding: 10px;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 button {
-    border-radius: 7px;
-    line-height: 1;
-    min-height: 10px;
-    min-width: 10px;
+background-color: rgb(159, 159, 255);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
     
 }
 
 .options{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    
+
+  
 }
 
+#hmm{
+    background-image: url(bubble.webp);
+}
+
+
+
 .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background: white;
     padding: 5px;
+    border-radius: 5px;
     ;
 }
 
@@ -93,23 +126,33 @@ footer {
     background-color:rgb(16, 62, 103);
     margin: 0;
     color: white;
+    padding: 4px;
+    border-radius: 5px;;
+}
+
+button:hover {
+    transition: background-color 1.0 ease;
+    background-color:rgb(80, 91, 175);
+    transition: color 0.5 ease;
+    color: white;
 }
 
 
+
+
 nav li:hover {
-	/* Transition goes here/ */
+	
 	transition: background-color 1.0s ease;
 	background-color: rgb(104, 119, 233);
 }
 nav li:hover a {
-	/* Transition goes here/ */
+	
 	transition: color 0.5s ease;
 	color: #000;
 }
 
 @media (max-width: 600px) {
     .options {
-      -webkit-flex-direction: column;
       flex-direction: column;
     }
 
@@ -117,4 +160,7 @@ nav li:hover a {
         flex-direction: column;
         align-items: center;
     }
+
 }
+
+
