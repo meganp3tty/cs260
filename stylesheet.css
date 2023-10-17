@@ -9,8 +9,7 @@
 }
 
 *{
-    font-family: Sunday;
-    
+    font-family: Sunday; 
    
 }
 
@@ -43,7 +42,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content:space-between;
+    justify-content:space-around;
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -101,13 +100,7 @@ background-color: rgb(159, 159, 255);
 .options{
     display: flex;
     justify-content: center;
-    
-
   
-}
-
-#hmm{
-    background-image: url(bubble.webp);
 }
 
 
@@ -136,8 +129,6 @@ button:hover {
     transition: color 0.5 ease;
     color: white;
 }
-
-
 
 
 nav li:hover {
