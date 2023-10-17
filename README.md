@@ -50,10 +50,10 @@ For this deliverable I built out the structure of my application using HTML.
 For this deliverable, I added some basic style elements to my application.
 
 * **Header, footer, and main content body**
-* **Navigation elements -** 
-* **Responsive to window resizing -** 
-* **Application elements -** 
-* **Application text content -** 
-* **Application images -** 
+* **Navigation elements -** Dropped underlines, added hover animations, made it responsive
+* **Responsive to window resizing -** Several elements change display based on screen size
+* **Application elements -** Good coloring, use of space
+* **Application text content -** 2 cohesive fonts
+* **Application images -** Background image, images fit color theme
 
 
