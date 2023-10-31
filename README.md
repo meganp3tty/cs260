@@ -56,4 +56,12 @@ For this deliverable, I added some basic style elements to my application.
 * **Application text content -** 2 cohesive fonts
 * **Application images -** Background image, images fit color theme
 
+## Java Deliverable
+For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
+
+* **Login -** When you press enter or the login button it takes you to the voting page.
+* **Database -** Displayed some filler journal entries. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
+* **WebSocket -** I used the setInterval function to periodically change the journal entries. This will be replaced with WebSocket messages later.
+* **Application logic -** The journal status changes based on the user's selections.
+
 
